@@ -170,6 +170,7 @@ img {vertical-align: middle;}
     overflow: visible !important;
 }
 .logo{
+
   position: absolute;
   top: 66px;
   left: 30px;
@@ -177,6 +178,9 @@ img {vertical-align: middle;}
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+.logo h2{
+  margin: calc(2rem - .14285714em) 0 4rem;
 }
 .brand_img{
   width: 149px;
@@ -230,6 +234,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px darkblue;
 
 @media screen and (max-width: 600px) {
    .brand_img{
+    display: none;
       width: 70px;
     }
   .brand_text{
@@ -253,7 +258,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px darkblue;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #f8f1f1;;
 }
 .facilities_text {
   color: white;
@@ -270,3 +275,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px darkblue;
   opacity: 1;
 }
 /* END FACILITIES SECTION */
+.ui.secondary.menu {
+  border-right: 1px solid #c31c1ceb;
+}
+

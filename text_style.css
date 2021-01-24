@@ -13,11 +13,12 @@
     animation: titleAnimation 36s linear infinite 0s;
 }
 .mySlides .text h3 {
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 240px;
+   font-family: 'Aclonica', sans-serif;
+    color: #eb8f8f;
+    font-size: 195px;
     padding: 0;
     line-height: 600px;
-	color: rgb(217, 217, 217);
+	
 
 }
  
@@ -162,9 +163,9 @@
 /* Show at least something when animations not supported */
 
 }
-@media screen and (max-width: 1140px) { 
+@media screen and (min-width: 600px) { 
 	.mySlides  .text h3 { font-size: 100px }
 }
 @media screen and (max-width: 600px) { 
-	.mySlides .text h3 { font-size: 80px }
+	.mySlides .text h3 { font-size: 53px }
 }
